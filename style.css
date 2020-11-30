@@ -6,8 +6,31 @@ html body{
 
 header{
     background:orange;
-    height: 12vh;
-    margin-bottom: 3em;
+    height: 10vh;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 10px;
+    padding: 5px;
+    
+}
+
+nav ul li:hover{
+    background: red;
+}
+
+nav ul li a{
+    color:black;
+    text-decoration: none;
     
 }
 
@@ -22,8 +45,11 @@ header{
 footer{
     background:red;
     height:10vh;
-    margin-top: 3em;
-    
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 .container{
